@@ -2,7 +2,7 @@ package service
 
 import (
 	"log/slog"
-	repository "notification/internal/repository/postgress"
+	repository "task-service/internal/repository/postgress"
 )
 
 type Task interface {
